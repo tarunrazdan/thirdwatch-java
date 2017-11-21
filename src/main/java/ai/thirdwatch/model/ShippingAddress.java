@@ -27,7 +27,7 @@ import java.io.IOException;
  * The Address field type represents a physical address. The value must be a nested object with the appropriate address subfields. We extract many geolocation features from these values. An address is represented as a nested JSON object. 
  */
 @ApiModel(description = "The Address field type represents a physical address. The value must be a nested object with the appropriate address subfields. We extract many geolocation features from these values. An address is represented as a nested JSON object. ")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-02T14:14:25.959+05:30")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-21T16:23:00.366+05:30")
 public class ShippingAddress {
   @SerializedName("_name")
   private String name = null;

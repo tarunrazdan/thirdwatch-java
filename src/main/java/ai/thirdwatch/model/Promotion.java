@@ -27,7 +27,7 @@ import java.io.IOException;
  * The Promotion field type generically models different kinds of promotions such as referrals, coupons, free trials, etc. The value must be a nested JSON object which you populate with the appropriate information to describe the promotion. Not all sub-fields will likely apply to a given promotion. Populate only those that apply.  A promotion can be added when creating or updating an account, creating or updating an order, or on its own using the add_promotion event. The promotion object supports both monetary (e.g. 500 coupon on first order) and non-monetary (e.g. \&quot;100 in points to refer a friend\&quot;). 
  */
 @ApiModel(description = "The Promotion field type generically models different kinds of promotions such as referrals, coupons, free trials, etc. The value must be a nested JSON object which you populate with the appropriate information to describe the promotion. Not all sub-fields will likely apply to a given promotion. Populate only those that apply.  A promotion can be added when creating or updating an account, creating or updating an order, or on its own using the add_promotion event. The promotion object supports both monetary (e.g. 500 coupon on first order) and non-monetary (e.g. \"100 in points to refer a friend\"). ")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-02T14:14:25.959+05:30")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-21T16:23:00.366+05:30")
 public class Promotion {
   @SerializedName("_promotionId")
   private String promotionId = null;

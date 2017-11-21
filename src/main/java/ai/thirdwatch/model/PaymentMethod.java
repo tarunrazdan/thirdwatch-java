@@ -27,7 +27,7 @@ import java.io.IOException;
  * The payment_method field type represents information about the payment methods provided by the user. The value must be a nested object with the appropriate item subfields for the given payment method. Generally usedwith the create_order or transaction events. 
  */
 @ApiModel(description = "The payment_method field type represents information about the payment methods provided by the user. The value must be a nested object with the appropriate item subfields for the given payment method. Generally usedwith the create_order or transaction events. ")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-02T14:14:25.959+05:30")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-21T16:23:00.366+05:30")
 public class PaymentMethod {
   @SerializedName("_paymentType")
   private String paymentType = null;

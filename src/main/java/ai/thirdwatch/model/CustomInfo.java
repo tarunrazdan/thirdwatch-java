@@ -22,7 +22,7 @@ import java.util.Map;
  * Custom fields capture user behavior and differences not covered by our reserved events and fields. For example, you can pass extra info like latitude, longitude, search parameter etc.
  */
 @ApiModel(description = "Custom fields capture user behavior and differences not covered by our reserved events and fields. For example, you can pass extra info like latitude, longitude, search parameter etc.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-02T14:14:25.959+05:30")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-21T16:23:00.366+05:30")
 public class CustomInfo extends HashMap<String, String> {
 
   @Override

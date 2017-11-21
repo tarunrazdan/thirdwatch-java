@@ -27,7 +27,7 @@ import java.io.IOException;
  * The Seller field type represents information about the seller. The value must be a nested object with the appropriate item subfields for the given seller. Generally usedwith the order, item or transaction events. 
  */
 @ApiModel(description = "The Seller field type represents information about the seller. The value must be a nested object with the appropriate item subfields for the given seller. Generally usedwith the order, item or transaction events. ")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-02T14:14:25.959+05:30")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-21T16:23:00.366+05:30")
 public class Seller {
   @SerializedName("_sellerId")
   private String sellerId = null;

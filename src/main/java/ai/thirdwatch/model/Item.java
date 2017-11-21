@@ -28,7 +28,7 @@ import java.io.IOException;
  * The Item field type represents a product or service for sale in your business. The value must be a nested object with the appropriate item subfields. Generally used in the add_to_cart and remove_from_cart events. 
  */
 @ApiModel(description = "The Item field type represents a product or service for sale in your business. The value must be a nested object with the appropriate item subfields. Generally used in the add_to_cart and remove_from_cart events. ")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-02T14:14:25.959+05:30")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-21T16:23:00.366+05:30")
 public class Item {
   @SerializedName("_itemId")
   private String itemId = null;
