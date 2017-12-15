@@ -84,13 +84,16 @@ import java.util.*;
 public class AddPromotionApiExample {
 
     public static void main(String[] args) {
+        String twBasePath = "https://api.thirdwatch.ai/event"; // For production environment
+
+        // String twBasePath = "http://api.thirdwatch.co/event"; // For dev and staging environment
+
         ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath(twBasePath)
         
         // Configure API key authorization: api_key
         ApiKeyAuth api_key = (ApiKeyAuth) defaultClient.getAuthentication("api_key");
         api_key.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //api_key.setApiKeyPrefix("Token");
 
         AddPromotionApi apiInstance = new AddPromotionApi();
         AddPromotion JSON = new AddPromotion(); // AddPromotion | Pass added promotion info to thirdwatch. Only `_userID` is required field. But this should contain promotion info.
